@@ -9,23 +9,11 @@ export async function get(req) {
 }
 
 export async function post(req) {
-	/**
-	 	name: 'My Deck',
-		base_game: 'true',
-		number_of_rooms: '5',
-		number_of_corridors: '5',
-  	'exclude_cards[]': [ 'r24', 'r25' ]
-	 */
-
   // Get form data
   const { name, number_of_rooms, number_of_corridors, 'exclude_cards[]': excludeKeys } = req.body;
 
-	console.log("Req.Body", req.body);
-
 	// Use the form data to make a deck
 	const deck = scenarioDeck({ name, numRooms: number_of_rooms, numCorridors: number_of_corridors, excludeKeys });
-
-	console.log("SCENARIO DECK", deck.toJSON());
 
 	// Store the deck
 	await upsertDeck(deck);
