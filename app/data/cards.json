@@ -1,0 +1,401 @@
+[
+  {
+    "key": "r1",
+    "type": "Room",
+    "name": "The Pit",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r1b",
+    "type": "Room",
+    "name": "Burial chamber",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r2",
+    "type": "Room",
+    "name": "The Guards Chamber",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r2b",
+    "type": "Room",
+    "name": "The Shrine",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r3",
+    "type": "Room",
+    "name": "The Torture Chamber",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r3b",
+    "type": "Room",
+    "name": "The Thieves Den",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r4",
+    "type": "Room",
+    "name": "Large storage room",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r4b",
+    "type": "Room",
+    "name": "Preparation room",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r5",
+    "type": "Room",
+    "name": "Large pillar hall",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r6",
+    "type": "Room",
+    "name": "The Temple",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r7",
+    "type": "Room",
+    "name": "The Library",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r8",
+    "type": "Room",
+    "name": "The Cell",
+    "group": "Core",
+    "doors": 1
+  },
+  {
+    "key": "r8b",
+    "type": "Room",
+    "name": "Burial chamber",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r9",
+    "type": "Room",
+    "name": "The Sanctuary",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r10",
+    "type": "Room",
+    "name": "Treasure chamber",
+    "group": "Core",
+    "doors": 1
+  },
+  {
+    "key": "r11",
+    "type": "Room",
+    "name": "Empty room",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r12",
+    "type": "Room",
+    "name": "The Small Study",
+    "group": "Core",
+    "doors": 1
+  },
+  {
+    "key": "r13",
+    "type": "Room",
+    "name": "Storage room",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r14",
+    "type": "Room",
+    "name": "The Well",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r17",
+    "type": "Room",
+    "name": "Monster den",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r19",
+    "type": "Room",
+    "name": "Wizards chamber",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r20",
+    "type": "Room",
+    "name": "Lava breach",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "r20",
+    "type": "Room",
+    "name": "Throne room",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "c2",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "c4",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "c5",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "c6",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 3
+  },
+  {
+    "key": "c7",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 3
+  },
+  {
+    "key": "c8",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 4
+  },
+  {
+    "key": "c9",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "c10",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 4
+  },
+  {
+    "key": "c12",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "c13",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "c15",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 2
+  },
+  {
+    "key": "c17",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "Core",
+    "doors": 4
+  },
+  {
+    "key": "c20",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "c21",
+    "type": "Corridor",
+    "name": "Bridge",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "c22",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "The Ancient Lands",
+    "doors": 3
+  },
+  {
+    "key": "c23",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "c24",
+    "type": "Corridor",
+    "name": "Collapsed Corridor",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "c25",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "c26",
+    "type": "Corridor",
+    "name": "Corridor with vines",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "c27",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "c28",
+    "type": "Corridor",
+    "name": "Trapped corridor",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "c29",
+    "type": "Corridor",
+    "name": "Corridor",
+    "group": "The Ancient Lands",
+    "doors": 3
+  },
+  {
+    "key": "r22",
+    "type": "Room",
+    "name": "Tomb",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r23",
+    "type": "Room",
+    "name": "Audience chamber",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r24",
+    "type": "Room",
+    "name": "Empty chamber",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r25",
+    "type": "Room",
+    "name": "Treasure chamber",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r26",
+    "type": "Room",
+    "name": "Small chamber",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r27",
+    "type": "Room",
+    "name": "Rickety bridge",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r28",
+    "type": "Room",
+    "name": "Embalming chamber",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r29",
+    "type": "Room",
+    "name": "Fountain room",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r30",
+    "type": "Room",
+    "name": "Summoning room",
+    "group": "The Ancient Lands",
+    "doors": 2
+  },
+  {
+    "key": "r31",
+    "type": "Room",
+    "name": "Pillar hall",
+    "group": "The Ancient Lands",
+    "doors": 3
+  },
+  {
+    "key": "r32",
+    "type": "Room",
+    "name": "Storage room",
+    "group": "The Ancient Lands",
+    "doors": 1
+  },
+  {
+    "key": "r33",
+    "type": "Room",
+    "name": "Hierophants chamber",
+    "group": "The Ancient Lands",
+    "doors": 2
+  }
+]
