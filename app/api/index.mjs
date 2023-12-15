@@ -1,12 +1,10 @@
+import { getDecks } from "../models/decks.mjs";
+
 export async function get() {
+  const decks = await getDecks();
   return {
-    json: {
-      decks: [
-        { id: 1, name: "My awesome dungeon 1" },
-        { id: 2, name: "My awesome dungeon 2" },
-        { id: 3, name: "My awesome dungeon 3" },
-        { id: 4, name: "My awesome dungeon 4" },
-      ],
-    },
+    json: { decks: JSON.parse(JSON.stringify(decks)) || [] },
   };
 }
+
+export async function post() {}

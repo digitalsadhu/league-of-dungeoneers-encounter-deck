@@ -3,16 +3,22 @@ import assert from "node:assert";
 import sandbox from "@architect/sandbox";
 
 const url = (path) => `http://localhost:3333${path}`;
-const get = async (path) => await fetch(url(path));
+const get = async (path) => {
+  const result = await fetch(url(path), {
+    headers: {
+      Accept: "application/json",
+    },
+  });
+  return result.json();
+};
 
-test(`Start local server`, async (t) => {
+test(`api/cards - start local server`, async () => {
   await sandbox.start({ quiet: true });
   assert.ok("local server started");
 });
 
-test("Api should return expected result", async () => {
+test("api/cards - api should return expected result", async () => {
   const response = await get("/cards");
-  const actual = (await response.json())[0];
   const expected = {
     key: "r1",
     name: "The Pit",
@@ -21,10 +27,10 @@ test("Api should return expected result", async () => {
     group: "Core",
   };
 
-  assert.deepEqual(actual, expected, "API returned expected result");
+  assert.deepEqual(response.cards.cards[0], expected, "API returned expected result");
 });
 
-test("Shut down local server", async () => {
+test("api/cards - shut down local server", async () => {
   await sandbox.end();
 
   assert.ok("Shut down Sandbox");

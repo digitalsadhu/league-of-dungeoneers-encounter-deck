@@ -14,7 +14,7 @@ const post = async (path, data) => {
     const response = await fetch(`http://localhost:3333${path}`, {
       method: "POST",
       headers: {
-				Accept: "application/json",
+        Accept: "application/json",
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
@@ -26,12 +26,12 @@ const post = async (path, data) => {
   }
 };
 
-test(`Start local server`, async () => {
+test(`api/decks/create - start local server`, async () => {
   await sandbox.start({ quiet: true });
   assert.ok("local server started");
 });
 
-test("Cards - GET /decks/create - returns all cards", async () => {
+test("api/decks/create - GET /decks/create - returns all cards", async () => {
   const response = await get("/decks/create?name=My Cool Deck");
   const actual = await response.json();
   assert.equal(actual.name, "My Cool Deck", "Name should match URL query param given");
@@ -43,19 +43,19 @@ test("Cards - GET /decks/create - returns all cards", async () => {
   );
 });
 
-test("Cards - POST /decks/create - creates deck and returns result", async () => {
+test("api/decks/create - POST /decks/create - creates deck and returns result", async () => {
   const actual = await post("/decks/create", {
-		name: "My Very Cool Deck", 
-		number_of_rooms: 3, 
-		number_of_corridors: 6,
-		'exclude_cards[]': ["r1", "r2"],
-	});
+    name: "My Very Cool Deck",
+    number_of_rooms: 3,
+    number_of_corridors: 6,
+    "exclude_cards[]": ["r1", "r2"],
+  });
   assert.equal(actual.name, "My Very Cool Deck", "Deck name should be 'My Very Cool Deck'");
   assert.ok(actual.id.length > 0, "Id should be present on deck");
-	assert.equal(actual.cards.length, 10, "Cards length should be");
+  assert.equal(actual.cards.length, 10, "Cards length should be");
 });
 
-test("Shut down local server", async () => {
+test("api/decks/create - shut down local server", async () => {
   await sandbox.end();
   assert.ok("Shut down Sandbox");
 });

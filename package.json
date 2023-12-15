@@ -4,7 +4,8 @@
   "scripts": {
     "start": "begin dev",
     "lint": "eslint ./app/**/*.mjs --fix",
-    "url": "echo https://meadow-lh5.begin.app"
+    "url": "echo https://meadow-lh5.begin.app",
+		"test": " node --test --test-concurrency=1 app"
   },
   "devDependencies": {
     "@enhance/cli": "^1.0.5",
